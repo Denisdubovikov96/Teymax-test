@@ -1,0 +1,40 @@
+.ActiveQuiz {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ActiveQuiz > p {
+    margin: 25px 0 100px 0;
+    text-align: center;
+}
+
+.ActiveQuiz > span {
+    font-size: 24px;
+    color: #000000;
+    margin-bottom: 50px;
+}
+
+.Progress {
+    max-width: 500px;
+    width: 100%;
+    height: 4px;
+    background-color: #25252575;
+    border-radius: 2px;
+    margin-bottom: 50px;
+}
+
+.Progress > div {
+    border-radius: 2px;
+    height: 100%;
+    background-color: #000000;
+    transition: width 0.3s linear;
+}
+
+.Image {
+    width: 600px;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-size: cover;
+}

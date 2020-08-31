@@ -1,0 +1,29 @@
+
+.Quiz > header {
+  width: 100%;
+  height: 400px;
+  display: flex;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.Quiz header h1 {
+  margin: 0;
+  padding: 40px 0;
+  max-width: 800px;
+  width: 100%;
+  text-align: center;
+  background: #ffffff;
+  font-size: 35px;
+  color: #202020;
+}
+
+.QuizContainer {
+  max-width: 800px;
+  margin: 0 auto;
+  height: calc(100vh - 400px);
+}
